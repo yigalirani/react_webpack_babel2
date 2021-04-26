@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "debug": "webpack --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7",
+    "@babel/preset-env": "^7",
+    "@babel/preset-react": "^7",
+    "babel-loader": "^8",
+    "eslint": "^7",
+    "eslint-plugin-react": "^7",
+    "eslint-plugin-react-hooks": "^4",
+    "webpack": "^5",
+    "webpack-cli": "^4"
+  },
+  "dependencies": {
+    "react": "^17",
+    "react-dom": "^17"
+  }
+}
